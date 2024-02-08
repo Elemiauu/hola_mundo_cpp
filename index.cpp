@@ -2,8 +2,12 @@
 
 #include <iostream>
 
+// Variable
+
+str message = "Hola mundo!";
+
 // Crear funcion "main"
 int main() {
-	printf("Hola Mundo!");
+	printf(message);
 	return 0;
 }
